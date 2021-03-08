@@ -10,3 +10,5 @@ ssh-add ~/.ssh/id_rsa
 
 git add filename/foldername
 git commit -m "commit message"
+
+updating the file content
