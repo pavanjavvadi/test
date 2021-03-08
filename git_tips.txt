@@ -1,4 +1,4 @@
-generate keygen = ssh-keygen -t rsa -b 4096 -c "githun email add"
+generate keygen = ssh-keygen -t rsa -b 4096 -c "github email add"
 
 #checking ssh is running or not
 eval $(ssh-agent -s)
@@ -10,5 +10,9 @@ ssh-add ~/.ssh/id_rsa
 
 git add filename/foldername
 git commit -m "commit message"
+git bramch -M branchname
 
 updating the file content
+
+git remote add origin http-url
+git push -u origin main
