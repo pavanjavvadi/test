@@ -1,0 +1,12 @@
+generate keygen = ssh-keygen -t rsa -b 4096 -c "githun email add"
+
+#checking ssh is running or not
+eval $(ssh-agent -s)
+
+#add ssh private key
+ssh-add ~/.ssh/id_rsa
+
+#copy public ssh key and paste it in the github account
+
+git add filename/foldername
+git commit -m "commit message"
